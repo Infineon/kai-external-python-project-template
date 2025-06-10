@@ -1,5 +1,7 @@
 # KAI Copier Project Template for Python Projects of External Partners
 
+Apache License 2.0: Copyright 2025 Infineon Technologies AG
+
 - This is a [copier](https://copier.readthedocs.io/en/stable/) project template
 - This template defines project metadata in [pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
 - [pre-commit](https://pre-commit.com/) runs static code analysis to ensure clean formatting and type consistency
