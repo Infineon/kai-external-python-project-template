@@ -1,0 +1,30 @@
+# generic
+/local/
+.env
+
+# Python
+/*venv*/
+**/_version.py
+__pycache__
+.python-version
+
+# IDEs
+/.idea/
+/.vscode/
+
+# tools
+/.tox/
+/.pre-commit/
+/.mypy_cache
+/.pytest_cache
+.python-version
+
+# build files
+*.egg-info
+.eggs/
+/dist
+/build
+/docs/build/
+
+# test files
+/*coverage*

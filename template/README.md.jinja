@@ -1,0 +1,34 @@
+# {{project_name}}
+
+Author: {{author_name}} <{{author_email}}>
+
+{{project_description}}
+
+## Prerequisites
+
+TODO
+
+## Usage
+
+TODO
+
+## Project Management
+
+### Pre-commit with ruff and MyPy
+
+- [pre-commit docs](https://pre-commit.com/)
+- Install pre-commit: `pip install pre-commit` OR `pipx install pre-commit` OR `uv tool install pre-commit`
+- Place git pre-commit hook: `pre-commit install`
+- Run pre-commit over all files: `pre-commit run -a` (directory needs to be a git repo for this ⚠️ `git init`)
+
+The two main hooks defined in `.pre-commit-config.yaml` are `ruff` and `mypy`.
+
+- [ruff docs](https://docs.astral.sh/ruff/)
+  - If ruff throws errors you have to resolve manually, you can find help here: [ruff rules](https://docs.astral.sh/ruff/rules/)
+- [mypy docs](https://mypy.readthedocs.io/en/latest/)
+  - If you have problems understaning the mypy errors, read the docs or ask a LLM (they normally have a good understanding for mypy)
+
+### Copier
+
+- [copier docs](https://copier.readthedocs.io/en/stable/)
+- Update template: `copier update --skip-answered`

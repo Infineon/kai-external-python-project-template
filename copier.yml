@@ -1,0 +1,21 @@
+project_name:
+  type: str
+  help: Project name in snake case (my_project_name)
+
+project_description:
+  type: str
+  help: Describe your project with a few words
+
+author_name:
+  type: str
+  help: Author Name (Forename Surname)
+
+author_email:
+  type: str
+  help: "Author Email (email@domain.tld)"
+
+min_python_version:
+  type: str
+  help: "Minimum Python Version (eg. 3.10)"
+
+_subdirectory: template
