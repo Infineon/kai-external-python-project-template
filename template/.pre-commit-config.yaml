@@ -26,6 +26,7 @@ repos:
       - id: mypy
         args: [
           "--disallow-untyped-defs",
+          "--ignore-missing-imports",
         ]
         files: ^src/
         additional_dependencies: ["."]
